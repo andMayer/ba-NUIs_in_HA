@@ -1,0 +1,40 @@
+TurnOnIntent start {Device}
+TurnOnIntent turn on {Device}
+TurnOnIntent turn on the {Device}
+TurnOnIntent switch on the {Device}
+TurnOnIntent switch on {Device}
+
+TurnOffIntent stop {Device}
+TurnOffIntent turn off {Device}
+TurnOffIntent turn off the {Device}
+TurnOffIntent switch off the {Device}
+TurnOffIntent switch off {Device}
+
+ChangeColorIntent change the color of {Device} to {Color}
+ChangeColorIntent change {Device} color to {Color}
+ChangeColorIntent please change the color of {Device} to {Color}
+ChangeColorIntent can you change the color of {Device} to {Color}
+ChangeColorIntent switch the color of {Device} to {Color}
+ChangeColorIntent {Color}
+ChangeColorIntent make the color of {Device} to {Color}
+ChangeColorIntent turn on a {Color} {Device}
+ChangeColorIntent switch on a {Color} {Device}
+
+GetEchoIdIntent what is my amazon echo id
+GetEchoIdIntent what is my echo id
+GetEchoIdIntent what is my amazon user id
+GetEchoIdIntent what is my user id
+GetEchoIdIntent tell me my amazon echo id
+GetEchoIdIntent tell me my echo id
+GetEchoIdIntent tell me my amazon user id
+GetEchoIdIntent tell me my user id
+GetEchoIdIntent how to get my amazon echo id
+GetEchoIdIntent how to get my user id
+GetEchoIdIntent how to get my amazon user id
+GetEchoIdIntent how to get my user id
+
+AMAZON.HelpIntent how do i change the color of light
+AMAZON.HelpIntent how to change light colors
+AMAZON.HelpIntent how to turn on devices
+AMAZON.HelpIntent how to turn off devices
+AMAZON.HelpIntent how to control devices

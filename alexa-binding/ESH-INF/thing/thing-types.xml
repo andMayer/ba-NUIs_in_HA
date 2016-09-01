@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="alexa"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+        xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    <thing-type id="alexa">
+        <label>Alexa Binding</label>
+        <description>Sample thing for Alexa Binding</description>
+        
+        <config-description>
+            <parameter name="websocket_address" type="text">
+                <label>Websocket address</label>
+                <description>Websocket address</description>
+                <required>true</required>
+                <default>wss://example-URL.com:8443/qiviconWebsocket</default>
+            </parameter>
+
+            <parameter name="amazon_echo_id" type="text">
+                <label>Amazon Echo ID</label>
+                <description>Amazon Echo ID</description>
+                <required>true</required>
+                <default>
+                    example EchoID
+                </default>
+            </parameter>
+        </config-description>
+    </thing-type>
+    
+    
+
+</thing:thing-descriptions>

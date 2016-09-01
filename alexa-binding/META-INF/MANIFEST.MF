@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Alexa Binding
+Bundle-SymbolicName: de.qaware.qivicon.alexa;singleton:=true
+Bundle-Vendor: Eclipse.org/SmartHome
+Bundle-Version: 0.9.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: .,
+ lib/jetty-io-9.3.11.v20160721.jar,
+ lib/jetty-util-9.3.11.v20160721.jar,
+ lib/websocket-api-9.3.11.v20160721.jar,
+ lib/websocket-client-9.3.11.v20160721.jar,
+ lib/websocket-common-9.3.11.v20160721.jar
+Import-Package: 
+ com.google.gson,
+ org.eclipse.smarthome.config.core,
+ org.eclipse.smarthome.core.events,
+ org.eclipse.smarthome.core.items.events,
+ org.eclipse.smarthome.core.library.types,
+ org.eclipse.smarthome.core.thing,
+ org.eclipse.smarthome.core.thing.binding,
+ org.eclipse.smarthome.core.thing.binding.builder,
+ org.eclipse.smarthome.core.thing.type,
+ org.eclipse.smarthome.core.types,
+ org.slf4j
+Service-Component: OSGI-INF/*.xml
+Export-Package: de.qaware.smarthome.alexa,
+ de.qaware.smarthome.alexa.handler

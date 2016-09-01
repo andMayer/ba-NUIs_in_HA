@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "intent": "TurnOnIntent",
+      "slots": [
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        }
+      ]
+    },
+    {
+      "intent": "TurnOffIntent",
+      "slots": [
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        }
+      ]
+    },
+    {
+      "intent": "ChangeColorIntent",
+      "slots": [
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        },
+        {
+          "name": "color",
+          "type": "LIST_OF_COLORS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
